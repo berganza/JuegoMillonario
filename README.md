@@ -1,4 +1,4 @@
 JuegoMillonario
 ===============
 
-Juego del millonario. Ejercicio para LEXgame
+Juego del millonario. Ejercicio para LEXcode
