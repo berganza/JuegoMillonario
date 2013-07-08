@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D22D7C2160346B20008435D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D22D7C1160346B20008435D /* UIKit.framework */; };
+		7D22D7C4160346B20008435D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D22D7C3160346B20008435D /* Foundation.framework */; };
+		7D22D7C6160346B20008435D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D22D7C5160346B20008435D /* CoreGraphics.framework */; };
+		7D22D7CC160346B20008435D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D22D7CA160346B20008435D /* InfoPlist.strings */; };
+		7D22D7CE160346B20008435D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D22D7CD160346B20008435D /* main.m */; };
+		7D22D7D2160346B20008435D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D22D7D1160346B20008435D /* AppDelegate.m */; };
+		7D22D7D5160346B20008435D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D22D7D3160346B20008435D /* MainStoryboard.storyboard */; };
+		7D22D7D8160346B20008435D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D22D7D7160346B20008435D /* ViewController.m */; };
+		7D5D379F1616143A00282938 /* dolar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D5D379E1616143A00282938 /* dolar.png */; };
+		7DB347BE160BAE1B00719BEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB347BD160BAE1B00719BEA /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D22D7BD160346B20008435D /* Millonario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Millonario.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D22D7C1160346B20008435D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D22D7C3160346B20008435D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D22D7C5160346B20008435D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D22D7C9160346B20008435D /* Millonario-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Millonario-Info.plist"; sourceTree = "<group>"; };
+		7D22D7CB160346B20008435D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D22D7CD160346B20008435D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D22D7CF160346B20008435D /* Millonario-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Millonario-Prefix.pch"; sourceTree = "<group>"; };
+		7D22D7D0160346B20008435D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D22D7D1160346B20008435D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D22D7D4160346B20008435D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7D22D7D6160346B20008435D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D22D7D7160346B20008435D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D5D379E1616143A00282938 /* dolar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dolar.png; sourceTree = "<group>"; };
+		7DB347BD160BAE1B00719BEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D22D7BA160346B20008435D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D22D7C2160346B20008435D /* UIKit.framework in Frameworks */,
+				7D22D7C4160346B20008435D /* Foundation.framework in Frameworks */,
+				7D22D7C6160346B20008435D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D22D7B2160346B20008435D = {
+			isa = PBXGroup;
+			children = (
+				7D5D379E1616143A00282938 /* dolar.png */,
+				7DB347BD160BAE1B00719BEA /* Default-568h@2x.png */,
+				7D22D7C7160346B20008435D /* Millonario */,
+				7D22D7C0160346B20008435D /* Frameworks */,
+				7D22D7BE160346B20008435D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D22D7BE160346B20008435D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D22D7BD160346B20008435D /* Millonario.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D22D7C0160346B20008435D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D22D7C1160346B20008435D /* UIKit.framework */,
+				7D22D7C3160346B20008435D /* Foundation.framework */,
+				7D22D7C5160346B20008435D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D22D7C7160346B20008435D /* Millonario */ = {
+			isa = PBXGroup;
+			children = (
+				7D22D7D0160346B20008435D /* AppDelegate.h */,
+				7D22D7D1160346B20008435D /* AppDelegate.m */,
+				7D22D7D3160346B20008435D /* MainStoryboard.storyboard */,
+				7D22D7D6160346B20008435D /* ViewController.h */,
+				7D22D7D7160346B20008435D /* ViewController.m */,
+				7D22D7C8160346B20008435D /* Supporting Files */,
+			);
+			path = Millonario;
+			sourceTree = "<group>";
+		};
+		7D22D7C8160346B20008435D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D22D7C9160346B20008435D /* Millonario-Info.plist */,
+				7D22D7CA160346B20008435D /* InfoPlist.strings */,
+				7D22D7CD160346B20008435D /* main.m */,
+				7D22D7CF160346B20008435D /* Millonario-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D22D7BC160346B20008435D /* Millonario */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D22D7DB160346B20008435D /* Build configuration list for PBXNativeTarget "Millonario" */;
+			buildPhases = (
+				7D22D7B9160346B20008435D /* Sources */,
+				7D22D7BA160346B20008435D /* Frameworks */,
+				7D22D7BB160346B20008435D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Millonario;
+			productName = Millonario;
+			productReference = 7D22D7BD160346B20008435D /* Millonario.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D22D7B4160346B20008435D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LLBER;
+			};
+			buildConfigurationList = 7D22D7B7160346B20008435D /* Build configuration list for PBXProject "Millonario" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D22D7B2160346B20008435D;
+			productRefGroup = 7D22D7BE160346B20008435D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D22D7BC160346B20008435D /* Millonario */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D22D7BB160346B20008435D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D22D7CC160346B20008435D /* InfoPlist.strings in Resources */,
+				7D22D7D5160346B20008435D /* MainStoryboard.storyboard in Resources */,
+				7DB347BE160BAE1B00719BEA /* Default-568h@2x.png in Resources */,
+				7D5D379F1616143A00282938 /* dolar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D22D7B9160346B20008435D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D22D7CE160346B20008435D /* main.m in Sources */,
+				7D22D7D2160346B20008435D /* AppDelegate.m in Sources */,
+				7D22D7D8160346B20008435D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D22D7CA160346B20008435D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D22D7CB160346B20008435D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D22D7D3160346B20008435D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D22D7D4160346B20008435D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D22D7D9160346B20008435D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7D22D7DA160346B20008435D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D22D7DC160346B20008435D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Millonario/Millonario-Prefix.pch";
+				INFOPLIST_FILE = "Millonario/Millonario-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D22D7DD160346B20008435D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Millonario/Millonario-Prefix.pch";
+				INFOPLIST_FILE = "Millonario/Millonario-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D22D7B7160346B20008435D /* Build configuration list for PBXProject "Millonario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D22D7D9160346B20008435D /* Debug */,
+				7D22D7DA160346B20008435D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D22D7DB160346B20008435D /* Build configuration list for PBXNativeTarget "Millonario" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D22D7DC160346B20008435D /* Debug */,
+				7D22D7DD160346B20008435D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D22D7B4160346B20008435D /* Project object */;
+}
